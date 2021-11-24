@@ -7,7 +7,8 @@ import (
 )
 
 func main() {
-	//源端口，目的端口
+	// 源端口，目的端口
+	// 切换此处的端口，前面是源端口(5389)，后面是目的端口(22)
 	var fromPort, toPort int = 5389, 22
 	fromAddr := fmt.Sprintf("0.0.0.0:%d", fromPort)
 	toAddr := fmt.Sprintf("127.0.0.1:%d", toPort)
